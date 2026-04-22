@@ -11,7 +11,7 @@ The application is designed with a clean, modular architecture including logging
 - MARKET & LIMIT orders
 - BUY / SELL support
 - CLI + Menu UI
-- Live price simulation 📈
+- Live price simulation 
 - Colored terminal output
 - Logging & error handling
 - Input validation
