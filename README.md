@@ -1,42 +1,24 @@
-#  Trading Bot – Binance Futures (Simulated)
+# 🚀 Trading Bot – Binance Futures (Simulated)
 
-##  Overview
+## 📌 Overview
 A CLI-based trading bot that simulates placing MARKET and LIMIT orders on Binance Futures.
+
+The application is designed with a clean, modular architecture including logging, validation, and an interactive terminal UI.
 
 ---
 
-## Features
+## ✨ Features
 - MARKET & LIMIT orders
 - BUY / SELL support
 - CLI + Menu UI
-- Live price simulation
+- Live price simulation 📈
+- Colored terminal output
 - Logging & error handling
+- Input validation
 
 ---
 
-## ⚙ Setup
+## ⚙️ Setup
 
+```bash
 pip install -r requirements.txt
-
----
-
-## ▶ Run
-
-### Interactive mode
-python cli.py
-
-### MARKET order
-python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
-
-### LIMIT order
-python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
-
----
-
-## 📊 Logs
-Check bot.log file
-
----
-
-##  Note
-Orders are simulated due to testnet restrictions. The code is structured to support real Binance API integration with minimal changes.
