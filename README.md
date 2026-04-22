@@ -1,13 +1,13 @@
-# 🚀 Trading Bot – Binance Futures (Simulated)
+# Trading Bot – Binance Futures (Simulated)
 
-## 📌 Overview
+## Overview
 A CLI-based trading bot that simulates placing MARKET and LIMIT orders on Binance Futures.
 
 The application is designed with a clean, modular architecture including logging, validation, and an interactive terminal UI.
 
 ---
 
-## ✨ Features
+## Features
 - MARKET & LIMIT orders
 - BUY / SELL support
 - CLI + Menu UI
@@ -18,7 +18,7 @@ The application is designed with a clean, modular architecture including logging
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 pip install -r requirements.txt
